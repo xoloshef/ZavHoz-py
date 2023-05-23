@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07061888-8ca9-4bb4-8fdd-55b6fe031d10" name="Changes" comment="start">
-      <change afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZavHozOffice/ZavHozOffice/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZavHozOffice/ZavHozOffice/urls.py" afterDir="false" />
+    <list default="true" id="07061888-8ca9-4bb4-8fdd-55b6fe031d10" name="Changes" comment="zho 1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZavHozOffice/ZavHozOffice/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZavHozOffice/ZavHozOffice/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZavHozOffice/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/ZavHozOffice/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZavHozOffice/hozoffice/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,11 +49,19 @@
       <option name="project" value="LOCAL" />
       <updated>1684821582225</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="zho 1">
+      <created>1684831461985</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684831461985</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start" />
-    <option name="LAST_COMMIT_MESSAGE" value="start" />
+    <MESSAGE value="zho 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="zho 1" />
   </component>
 </project>
