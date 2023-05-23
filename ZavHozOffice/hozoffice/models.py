@@ -1,15 +1,24 @@
+import datetime
+
 from django.db import models
+from django.utils import timezone
 
 # Create your models here.
-class Question(models.Model):
+class Question(models.Model): # из примера удалить
     question_text = models.CharField(max_length=200)
     pub_date = models.DateTimeField('date published')
+    def __str__(self):
+        return self.question_text
+    def was_published_recently(self):
+        return self.pub_date >= timezone.now() - datetime.timedelta(days=1)
 
 
-class Choice(models.Model):
+class Choice(models.Model): # из примера удалить
     question = models.ForeignKey(Question, on_delete=models.CASCADE)
     choice_text = models.CharField(max_length=200)
     votes = models.IntegerField(default=0)
+    def __str__(self):
+        return self.choice_text
 
 class Workers(models.Model):
     employee_ID = models.IntegerField(default=0, primary_key=True) # Внутренний номер сотрудника
@@ -45,8 +54,7 @@ class BaseActs(models.Model):
     responsible_employee_ID = models.IntegerField(default=0)   # на кого оформлен акт
     # предроложительная ошибка и от греха подальше asset_ID = models.ForeignKey(Assets, on_delete=models.CASCADE) # Предмет который участвуют в акте
     asset_ID = models.IntegerField(default=0)     # Предмет который участвуют в акте
-    numbers_act = models.IntegerField(default=0)  # Кол-во актов
-    last_act = models.IntegerField(default=0)     # Прошлый акт
-    # ExampleAct = # Пример акта
+    numbers_act = models.IntegerField(default=0)  # Кол-во актов #УДАЛИТЬ
+    last_act = models.IntegerField(default=0)     # Прошлый акт  #УДАЛИТЬ
     # responsible_current_act = models.ForeignKey(Workers, on_delete=models.CASCADE) # Ответственный за акт приема – передачи
     data_start_act = models.DateTimeField('date published') # Время и дата начала действия акта
