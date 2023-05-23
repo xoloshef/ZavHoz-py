@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Банковские переводы</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+
+      .form_radio_group {
+	    display: inline-block;
+	    overflow: hidden;
+      }
+      .form_radio_group-item {
+          display: inline-block;
+          float: left;
+      }
+      .form_radio_group input[type=radio] {
+          display: none;
+      }
+      .form_radio_group label {
+          display: inline-block;
+          cursor: pointer;
+          padding: 0px 15px;
+          line-height: 34px;
+          border: 1px solid #999;
+          border-right: none;
+          user-select: none;
+      }
+
+      .form_radio_group .form_radio_group-item:first-child label {
+          border-radius: 6px 0 0 6px;
+      }
+      .form_radio_group .form_radio_group-item:last-child label {
+          border-radius: 0 6px 6px 0;
+          border-right: 1px solid #999;
+      }
+
+      /* Checked */
+      .form_radio_group input[type=radio]:checked + label {
+          background: #ffe0a6;
+      }
+
+      /* Hover */
+      .form_radio_group label:hover {
+          color: #666;
+      }
+
+      /* Disabled */
+      .form_radio_group input[type=radio]:disabled + label {
+          background: #efefef;
+          color: #666;
+      }
+
+
+
+      .form_radio_group_2 {
+	    display: inline-block;
+	    overflow: hidden;
+      }
+      .form_radio_group-item2 {
+          display: inline-block;
+          float: left;
+      }
+      .form_radio_group_2 input[type=radio2] {
+          display: none;
+      }
+      .form_radio_group_2 label {
+          display: inline-block;
+          cursor: pointer;
+          padding: 0px 15px;
+          line-height: 34px;
+          border: 1px solid #999;
+          border-right: none;
+          user-select: none;
+      }
+
+      .form_radio_group_2 .form_radio_group-item2:first-child label {
+          border-radius: 6px 0 0 6px;
+      }
+      .form_radio_group_2 .form_radio_group-item2:last-child label {
+          border-radius: 0 6px 6px 0;
+          border-right: 1px solid #999;
+      }
+
+      /* Checked */
+      .form_radio_group_2 input[type=radio2]:checked + label {
+          background: #ffe0a6;
+      }
+
+      /* Hover */
+      .form_radio_group_2 label:hover {
+          color: #666;
+      }
+
+      /* Disabled */
+      .form_radio_group_2 input[type=radio2]:disabled + label {
+          background: #efefef;
+          color: #666;
+      }
+    </style>
+
+
+  </head>
+  <body>
+
+<header>
+  <div class="navbar navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <a href='http://localhost:63342/ZavHoz-py/ZavHozOffice/hozoffice/templates/hozoffice/index.html' class="navbar-brand d-flex align-items-center">
+        <strong>ZavHozOffice.online</strong>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">Банковский перевод</h1>
+        <p class="lead text-muted"><br>Баланс - 99999 &#8381;</p>
+        <p>
+          <a href="../client/new_bank_account/" class="btn btn-secondary my-2">Открыть новый счёт</a>
+          <a href="../client/action_bank_account/" class="btn btn-secondary my-2">Действия со счётом </a>
+          <a href="http://127.0.0.1:8000/client_index" class="btn btn-secondary my-2">Домашняя страница</a>
+
+          <a href="" class="btn btn-primary my-2">Переводы</a>
+        </p>
+      </div>
+      <hr>
+      <div>
+        <hr>
+        <div class="form_radio_group">
+          <h5 class="fw-light">Откуда</h5>
+          <div class="form_radio_group-item">
+            <input id="radio-1" type="radio" name="radio" value="1" checked>
+            <label for="radio-1">Дебетовая карта</label>
+          </div>
+          <div class="form_radio_group-item">
+            <input id="radio-2" type="radio" name="radio" value="2">
+            <label for="radio-2">Кредитная карта</label>
+          </div>
+          <div class="form_radio_group-item">
+            <input id="radio-3" type="radio" name="radio" value="3">
+            <label for="radio-3">Пополнить</label>
+          </div>
+        </div>
+        <hr>
+        <div>
+          <div class="form_radio_group_2">
+           <h5 class="fw-light">Куда</h5>
+            <div class="form_radio_group-item2">
+              <input id="radio-4" type="radio2" name="radio2" value="4" checked>
+              <label for="radio-4">Дебетовая карта</label>
+            </div>
+            <div class="form_radio_group-item2">
+              <input id="radio-5" type="radio2" name="radio2" value="5">
+              <label for="radio-5">Кредитная карта</label>
+            </div>
+            <div class="form_radio_group-item2">
+              <input id="radio-6" type="radio2" name="radio2" value="6">
+              <label for="radio-6">Другой Банк</label>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <p>
+          <a href="#" class="btn btn-primary my-2">Подтвердить</a>
+        </p>
+        <hr>
+
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="text-muted py-5">
+  <div class="container">
+    <hr>
+    <p class="float-end mb-1">
+      <a href="#">Наверх</a>
+    </p>
+    <p class="mb-1">Созданно студентами <a href="https://www.miit.ru/">РУТ МИИТ</a>, группа УИС-211 (2022-2023), в учебных и ознакомительных целях, по дисциплине "Проектная деятельность 4"</p>
+  </div>
+</footer>
+
+
+  </body>
+</html>

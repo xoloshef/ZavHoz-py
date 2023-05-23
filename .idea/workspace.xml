@@ -4,14 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07061888-8ca9-4bb4-8fdd-55b6fe031d10" name="Changes" comment="zho 2 пошли ошибки но коммит необходим">
-      <change afterPath="$PROJECT_DIR$/ZavHozOffice/other - feture delete - tuta history terminal 1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dops" afterDir="false" />
+    <list default="true" id="07061888-8ca9-4bb4-8fdd-55b6fe031d10" name="Changes" comment="zho 4 изменения БД">
+      <change afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/static/AKT.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/static/recovery/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/static/recovery/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/static/recovery/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/static/recovery/worker_client/action_bank_account.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/static/recovery/worker_client/bank_transfers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/static/recovery/worker_client/new_bank_account.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/static/recovery/worker_client/worker_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/templates/hozoffice/bank_admin/admin_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/templates/hozoffice/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/templates/hozoffice/more/dontpassword.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/templates/hozoffice/more/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/templates/hozoffice/more/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/templates/hozoffice/worker_client/worker_index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZavHozOffice/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/ZavHozOffice/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZavHozOffice/hozoffice/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZavHozOffice/hozoffice/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,12 +38,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Projects/ZavHoz-py/ZavHozOffice/hozoffice/static/recovery"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\ZavHoz-py\ZavHozOffice\hozoffice\static\recovery" />
+      <recent name="C:\Projects\ZavHoz-py\ZavHozOffice\hozoffice" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\ZavHoz-py\ZavHozOffice\hozoffice\static" />
+      <recent name="C:\Projects\ZavHoz-py\ZavHozOffice\hozoffice\templates\recovery" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -66,13 +85,29 @@
       <option name="project" value="LOCAL" />
       <updated>1684843304635</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="zho 3 ЭТО БАЗА">
+      <created>1684847977134</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684847977134</updated>
+    </task>
+    <task id="LOCAL-00005" summary="zho 4 изменения БД">
+      <created>1684850788103</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684850788103</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start" />
     <MESSAGE value="zho 1" />
     <MESSAGE value="zho 2 пошли ошибки но коммит необходим" />
-    <option name="LAST_COMMIT_MESSAGE" value="zho 2 пошли ошибки но коммит необходим" />
+    <MESSAGE value="zho 3 ЭТО БАЗА" />
+    <MESSAGE value="zho 4 изменения БД" />
+    <option name="LAST_COMMIT_MESSAGE" value="zho 4 изменения БД" />
   </component>
 </project>

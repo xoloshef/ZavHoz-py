@@ -1,0 +1,16 @@
+{% extends 'mazebank/base.html' %}
+
+{% block content %}
+<h1>{{title}}</h1>
+
+<ul>
+    {% for m in basedata %}
+    <li>
+        <h2>{{p.title}}</h2>
+        <p>{{p.content}}</p>
+    </li>
+    {% endfor %}
+</ul>
+
+
+{% endblock %}
