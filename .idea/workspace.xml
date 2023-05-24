@@ -4,27 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07061888-8ca9-4bb4-8fdd-55b6fe031d10" name="Changes" comment="zho 4 изменения БД">
-      <change afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/static/AKT.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/static/recovery/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/static/recovery/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/static/recovery/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/static/recovery/worker_client/action_bank_account.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/static/recovery/worker_client/bank_transfers.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/static/recovery/worker_client/new_bank_account.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/static/recovery/worker_client/worker_index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/templates/hozoffice/bank_admin/admin_index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/templates/hozoffice/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/templates/hozoffice/more/dontpassword.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/templates/hozoffice/more/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/templates/hozoffice/more/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/templates/hozoffice/worker_client/worker_index.html" afterDir="false" />
+    <list default="true" id="07061888-8ca9-4bb4-8fdd-55b6fe031d10" name="Changes" comment="zho 5 а похуй пойдет">
+      <change afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/copy/templates/hozoffice/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/templates/hozoffice/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/templates/hozoffice/results.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zametki to html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZavHozOffice/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/ZavHozOffice/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZavHozOffice/hozoffice/static/AKT.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/copy/static/AKT.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZavHozOffice/hozoffice/static/recovery/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/copy/static/recovery/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZavHozOffice/hozoffice/static/recovery/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/copy/static/recovery/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZavHozOffice/hozoffice/static/recovery/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/copy/static/recovery/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZavHozOffice/hozoffice/static/recovery/worker_client/action_bank_account.html" beforeDir="false" afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/copy/static/recovery/worker_client/action_bank_account.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZavHozOffice/hozoffice/static/recovery/worker_client/bank_transfers.html" beforeDir="false" afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/copy/static/recovery/worker_client/bank_transfers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZavHozOffice/hozoffice/static/recovery/worker_client/new_bank_account.html" beforeDir="false" afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/copy/static/recovery/worker_client/new_bank_account.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZavHozOffice/hozoffice/static/recovery/worker_client/worker_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/copy/static/recovery/worker_client/worker_index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZavHozOffice/hozoffice/templates/hozoffice/bank_admin/admin_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/copy/templates/hozoffice/bank_admin/admin_index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZavHozOffice/hozoffice/templates/hozoffice/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/templates/hozoffice/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZavHozOffice/hozoffice/templates/hozoffice/more/dontpassword.html" beforeDir="false" afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/copy/templates/hozoffice/more/dontpassword.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZavHozOffice/hozoffice/templates/hozoffice/more/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/copy/templates/hozoffice/more/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZavHozOffice/hozoffice/templates/hozoffice/more/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/copy/templates/hozoffice/more/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZavHozOffice/hozoffice/templates/hozoffice/worker_client/worker_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/copy/templates/hozoffice/worker_client/worker_index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZavHozOffice/hozoffice/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZavHozOffice/hozoffice/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZavHozOffice/other - feture delete - tuta history terminal 1" beforeDir="false" afterPath="$PROJECT_DIR$/other - feture delete - tuta history terminal 1" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,6 +56,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/Projects/ZavHoz-py/ZavHozOffice/hozoffice/static/recovery"
@@ -51,9 +68,36 @@
       <recent name="C:\Projects\ZavHoz-py\ZavHozOffice\hozoffice" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\ZavHoz-py\ZavHozOffice\hozoffice\templates\hozoffice" />
+      <recent name="C:\Projects\ZavHoz-py" />
+      <recent name="C:\Projects\ZavHoz-py\ZavHozOffice\hozoffice\copy" />
       <recent name="C:\Projects\ZavHoz-py\ZavHozOffice\hozoffice\static" />
       <recent name="C:\Projects\ZavHoz-py\ZavHozOffice\hozoffice\templates\recovery" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="python manage.py runserver" type="PythonConfigurationType" factoryName="Python">
+      <module name="ZavHoz-py" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Xoroshev\ZavHoz-py\Scripts\python.exe" />
+      <option name="SDK_NAME" value="Python 3.9 (ZavHoz-py)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -99,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684850788103</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="zho 5 а похуй пойдет">
+      <created>1684881162077</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684881162077</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -108,6 +159,7 @@
     <MESSAGE value="zho 2 пошли ошибки но коммит необходим" />
     <MESSAGE value="zho 3 ЭТО БАЗА" />
     <MESSAGE value="zho 4 изменения БД" />
-    <option name="LAST_COMMIT_MESSAGE" value="zho 4 изменения БД" />
+    <MESSAGE value="zho 5 а похуй пойдет" />
+    <option name="LAST_COMMIT_MESSAGE" value="zho 5 а похуй пойдет" />
   </component>
 </project>

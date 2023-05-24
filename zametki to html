@@ -1,0 +1,102 @@
+<!-- было в index
+        <li><a href="{% url 'detail' question.id %}">{{ question.question_text }}</a></li>
+        <li><a href="/hozoffice/{{ question.id }}/">{{ question.question_text }}</a></li>
+        <li><a href="{% url 'detail' question.id %}">{{ question.question_text }}</a></li>
+-->
+
+
+Detail html
+
+<form action="{% url 'hozoffice:vote' question.id %}" method="post">
+{% csrf_token %}
+<fieldset>
+    <legend><h1>{{ question.question_text }}</h1></legend>
+    {% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+    {% for choice in question.choice_set.all %}
+        <input type="radio" name="choice" id="choice{{ forloop.counter }}" value="{{ choice.id }}">
+        <label for="choice{{ forloop.counter }}">{{ choice.choice_text }}</label><br>
+    {% endfor %}
+</fieldset>
+<input type="submit" value="Vote">
+</form>
+
+<!--
+    Приведенный выше шаблон отображает переключатель для каждого вопроса. value каждого переключателя является идентификатором (ID)
+соответствующего вопроса. name каждой радиокнопки - это "choice". Это означает, что когда кто-то выбирает один из переключателей
+ и отправляет форму, он отправляет POST-данные choice=# где # - идентификатор выбранного варианта. Это основная концепция форм HTML.
+    Мы установили для action формы значение {% url 'polls:vote' question.id %}, а для method="post" - значение . Использование method="post"
+(в отличие от method="get") очень важно, поскольку при отправке формы данные будут изменяться на стороне сервера. Всякий раз, когда вы
+создаете форму, изменяющую данные на стороне сервера, используйте method="post". Этот совет не относится к Django; это хорошая практика
+веб-разработки в целом.
+    forloop.counter указывает, сколько раз тег for прошел цикл
+    Поскольку мы создаем форму POST (которая может повлиять на изменение данных), нам нужно беспокоиться о подделках межсайтовых запросов.
+К счастью, вам не нужно слишком сильно беспокоиться, потому что Django поставляется с полезной системой для защиты от него. Короче говоря,
+все формы POST, предназначенные для внутренних URL-адресов, должны использовать тег шаблона {% csrf_token %}.
+-->
+
+
+
+
+
+urls.html
+
+"""  с <question_id> на <pk>.
+urlpatterns = [
+    # ex: /polls/
+    path('', views.index, name='index'),
+    # ex: /polls/5/
+    # path('<int:question_id>/', views.detail, name='detail'),
+    # the 'name' value as called by the {% url %} template tag
+    path('<int:question_id>/', views.detail, name='detail'),
+    # ex: /polls/5/results/
+    path('<int:question_id>/results/', views.results, name='results'),
+    # ex: /polls/5/vote/
+    path('<int:question_id>/vote/', views.vote, name='vote'),
+]
+"""
+
+views
+
+"""
+# Написание представлений, которые что-то делают через HttpResponse
+def index(request):
+    latest_question_list = Question.objects.order_by('-pub_date')[:5]
+    template = loader.get_template('hozoffice/index.html')
+    context = {
+        'latest_question_list': latest_question_list,
+    }
+    return HttpResponse(template.render(context, request))
+#
+
+# написание представлений через render
+def index(request):
+    latest_question_list = Question.objects.order_by('-pub_date')[:5]
+    context = {'latest_question_list': latest_question_list}
+    return render(request, 'hozoffice/index.html', context)
+
+def detail(request, question_id):
+    question = get_object_or_404(Question, pk=question_id)
+    return render(request, 'hozoffice/detail.html', {'question': question})
+
+def results(request, question_id):
+    question = get_object_or_404(Question, pk=question_id)
+    return render(request, 'hozoffice/results.html', {'question': question})
+
+def vote(request, question_id):
+    question = get_object_or_404(Question, pk=question_id)
+    try:
+        selected_choice = question.choice_set.get(pk=request.POST['choice'])
+    except (KeyError, Choice.DoesNotExist):
+        # Redisplay the question voting form.
+        return render(request, 'polls/detail.html', {
+            'question': question,
+            'error_message': "You didn't select a choice.",
+        })
+    else:
+        selected_choice.votes += 1
+        selected_choice.save()
+        # Always return an HttpResponseRedirect after successfully dealing
+        # with POST data. This prevents data from being posted twice if a
+        # user hits the Back button.
+        return HttpResponseRedirect(reverse('hozoffice:results', args=(question.id,)))
+"""
