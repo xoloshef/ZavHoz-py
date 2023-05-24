@@ -6,6 +6,9 @@ from django.views import generic
 
 from .models import Choice, Question
 
+
+menu = ["О сайте", "Оформить карту", "Переводы", "Обратная связь", "Войти"]
+
 class IndexView(generic.ListView):
     template_name = 'hozoffice/index.html'
     context_object_name = 'latest_question_list'
