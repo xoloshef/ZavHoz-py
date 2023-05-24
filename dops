@@ -32,5 +32,16 @@ index html 4
 {% endif %}
 
 
+admin to html
+
+
+
+
+admin.py
+вид структура
+class ChoiceInline(admin.StackedInline):
+    model = Choice
+    extra = 3
+вид табличка class ChoiceInline(admin.TabularInline):
 
 
