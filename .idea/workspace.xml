@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07061888-8ca9-4bb4-8fdd-55b6fe031d10" name="Changes" comment="zho 7 рабочие нароботки работы с базой и html django">
-      <change afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/static/hozoffice/style.css" afterDir="false" />
+    <list default="true" id="07061888-8ca9-4bb4-8fdd-55b6fe031d10" name="Changes" comment="zho 8 style">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZavHozOffice/hozoffice/templates/hozoffice/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/templates/hozoffice/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dops" beforeDir="false" afterPath="$PROJECT_DIR$/dops" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZavHozOffice/hozoffice/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZavHozOffice/hozoffice/admin.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684888883737</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="zho 8 style">
+      <created>1684912803752</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1684912803752</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -148,6 +153,7 @@
     <MESSAGE value="zho 4 изменения БД" />
     <MESSAGE value="zho 5 а похуй пойдет" />
     <MESSAGE value="zho 7 рабочие нароботки работы с базой и html django" />
-    <option name="LAST_COMMIT_MESSAGE" value="zho 7 рабочие нароботки работы с базой и html django" />
+    <MESSAGE value="zho 8 style" />
+    <option name="LAST_COMMIT_MESSAGE" value="zho 8 style" />
   </component>
 </project>
