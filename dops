@@ -20,6 +20,17 @@ python manage.py shell
 from hozoffice.models import Workers
 Workers.objects.all()
 
+index html 4
+{% if latest_question_list %}
+    <ul>
+    {% for question in latest_question_list %}
+        <li><a href="{% url 'hozoffice:detail' question.id %}">{{ question.question_text }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No polls are available.</p>
+{% endif %}
+
 
 
 
